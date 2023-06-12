@@ -1,16 +1,13 @@
 import React from 'react'
-import { Button } from 'semantic-ui-react'
+import Login from './Login'
 
 export default function Homepage() {
+  const submit = (username:string,password:string)=>{
+// eslint-disable-next-line
+  }
   return (
-    <div className='Headerpage'>
-      <h3>login</h3>
-      <div className='Container'>
-      <input type='text' placeholder='Enter the Username'/>
-      <input type='password' placeholder='Enter the Password'/>
-      <Button primary>hi</Button>
-      </div>
-      
+    <div className='Headerpage '>
+      <Login onSubmit={submit} />
     </div>
   )
 }
