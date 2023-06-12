@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Headerpage{
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 40vh;
+  width: 30vw;
+}
+.Container{
+  margin: auto;
+ display: flex;
+ flex-direction: column;
+ width: 19vw;
+ gap: 30px;
+}
+.Container input[type=text],.Container input[type=password]{
+  height: 4vh;
+}
